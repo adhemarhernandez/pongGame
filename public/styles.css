@@ -50,6 +50,23 @@ body {
   height: 2.5vh;
 }
 
+.icon-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 200px; /* Adjust the width based on the desired space between the icons */
+}
+
+.icon-link {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 5vh;
+  color: var(--foreground-color);
+}
+
 .score {
   display: flex;
   justify-content: center;
